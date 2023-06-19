@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("Weather gifs/istockphoto-1191053834-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+
+
+}
+
+.main {
+    margin-top: 50px;
+    margin-left: 39%;
+}
+
+.root {
+    background: rgba(105, 182, 226, 0.45);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    border: 1px solid rgba(105, 182, 226, 0.32);
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+}
+
+.city {
+    text-align: center;
+     color:rgba(255, 255, 255, 0.863);
+}
+.tempr{
+    color:rgba(255, 255, 255, 0.863);
+}
+.wearthe{
+    color:rgba(255, 255, 255, 0.863);
+    }
+.sel_cont {
+    display: flex;
+    margin: 5px;
+    gap: 5px;
+}
+
+.text {
+
+    background: rgba(171, 220, 240, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(171, 220, 240, 0.32);
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 280px;
+    border: none;
+}
+
+::placeholder {
+    font-weight: bold;
+    color: white;
+}
+
+.submit {
+
+    border-radius: 7px;
+    cursor: pointer;
+    height: 50px;
+    width: 50x;
+}
+
+.submit1 {
+    width: 45px;
+}
